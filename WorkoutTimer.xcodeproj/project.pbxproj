@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9919DEE01979CACB00C7C5C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919DEDF1979CACB00C7C5C1 /* Foundation.framework */; };
+		9919DEE21979CACB00C7C5C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919DEE11979CACB00C7C5C1 /* CoreGraphics.framework */; };
+		9919DEE41979CACB00C7C5C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919DEE31979CACB00C7C5C1 /* UIKit.framework */; };
+		9919DEEA1979CACC00C7C5C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9919DEE81979CACC00C7C5C1 /* InfoPlist.strings */; };
+		9919DEEC1979CACC00C7C5C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DEEB1979CACC00C7C5C1 /* main.m */; };
+		9919DEF01979CACC00C7C5C1 /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DEEF1979CACC00C7C5C1 /* WTAppDelegate.m */; };
+		9919DEF21979CACC00C7C5C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9919DEF11979CACC00C7C5C1 /* Images.xcassets */; };
+		9919DEF91979CACC00C7C5C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919DEF81979CACC00C7C5C1 /* XCTest.framework */; };
+		9919DEFA1979CACC00C7C5C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919DEDF1979CACB00C7C5C1 /* Foundation.framework */; };
+		9919DEFB1979CACC00C7C5C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9919DEE31979CACB00C7C5C1 /* UIKit.framework */; };
+		9919DF031979CACC00C7C5C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9919DF011979CACC00C7C5C1 /* InfoPlist.strings */; };
+		9919DF051979CACC00C7C5C1 /* WorkoutTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF041979CACC00C7C5C1 /* WorkoutTimerTests.m */; };
+		9919DF111979CBC500C7C5C1 /* WTProgramsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF0F1979CBC500C7C5C1 /* WTProgramsViewController.m */; };
+		9919DF121979CBC500C7C5C1 /* WTProgramsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9919DF101979CBC500C7C5C1 /* WTProgramsViewController.xib */; };
+		9919DF151979CC0600C7C5C1 /* WTProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF141979CC0600C7C5C1 /* WTProgram.m */; };
+		9919DF1B1979CD8700C7C5C1 /* WTWorkout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF1A1979CD8700C7C5C1 /* WTWorkout.m */; };
+		9919DF1E1979CDF300C7C5C1 /* WTExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF1D1979CDF300C7C5C1 /* WTExercise.m */; };
+		9919DF62197A1F9300C7C5C1 /* WTAddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF60197A1F9300C7C5C1 /* WTAddNewViewController.m */; };
+		9919DF63197A1F9300C7C5C1 /* WTAddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9919DF61197A1F9300C7C5C1 /* WTAddNewViewController.xib */; };
+		9919DF66197A1FC500C7C5C1 /* WTAddNewProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF65197A1FC500C7C5C1 /* WTAddNewProgramViewController.m */; };
+		9919DF69197A1FD900C7C5C1 /* WTAddNewWorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF68197A1FD900C7C5C1 /* WTAddNewWorkoutViewController.m */; };
+		9919DF6C197A200700C7C5C1 /* WTAddNewExcerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF6B197A200700C7C5C1 /* WTAddNewExcerciseViewController.m */; };
+		9919DF6E197A209F00C7C5C1 /* WTAddNewExcerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9919DF6D197A209F00C7C5C1 /* WTAddNewExcerciseViewController.xib */; };
+		9919DF71197B3F7200C7C5C1 /* WTModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF70197B3F7200C7C5C1 /* WTModelController.m */; };
+		9919DF75197C48E700C7C5C1 /* WTWorkoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF73197C48E700C7C5C1 /* WTWorkoutsViewController.m */; };
+		9919DF76197C48E700C7C5C1 /* WTWorkoutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9919DF74197C48E700C7C5C1 /* WTWorkoutsViewController.xib */; };
+		9919DF7A197CF2C600C7C5C1 /* WTExcercisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF78197CF2C500C7C5C1 /* WTExcercisesViewController.m */; };
+		9919DF7B197CF2C600C7C5C1 /* WTExcercisesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9919DF79197CF2C500C7C5C1 /* WTExcercisesViewController.xib */; };
+		9919DF7F197D793900C7C5C1 /* WTExcerciseTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919DF7D197D793900C7C5C1 /* WTExcerciseTimerViewController.m */; };
+		9919DF80197D793900C7C5C1 /* WTExcerciseTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9919DF7E197D793900C7C5C1 /* WTExcerciseTimerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9919DEFC1979CACC00C7C5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9919DED41979CACB00C7C5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9919DEDB1979CACB00C7C5C1;
+			remoteInfo = WorkoutTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9919DEDC1979CACB00C7C5C1 /* WorkoutTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9919DEDF1979CACB00C7C5C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9919DEE11979CACB00C7C5C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9919DEE31979CACB00C7C5C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9919DEE71979CACC00C7C5C1 /* WorkoutTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkoutTimer-Info.plist"; sourceTree = "<group>"; };
+		9919DEE91979CACC00C7C5C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9919DEEB1979CACC00C7C5C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9919DEED1979CACC00C7C5C1 /* WorkoutTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkoutTimer-Prefix.pch"; sourceTree = "<group>"; };
+		9919DEEE1979CACC00C7C5C1 /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		9919DEEF1979CACC00C7C5C1 /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		9919DEF11979CACC00C7C5C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9919DEF71979CACC00C7C5C1 /* WorkoutTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9919DEF81979CACC00C7C5C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9919DF001979CACC00C7C5C1 /* WorkoutTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkoutTimerTests-Info.plist"; sourceTree = "<group>"; };
+		9919DF021979CACC00C7C5C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9919DF041979CACC00C7C5C1 /* WorkoutTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutTimerTests.m; sourceTree = "<group>"; };
+		9919DF0E1979CBC500C7C5C1 /* WTProgramsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTProgramsViewController.h; sourceTree = "<group>"; };
+		9919DF0F1979CBC500C7C5C1 /* WTProgramsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTProgramsViewController.m; sourceTree = "<group>"; };
+		9919DF101979CBC500C7C5C1 /* WTProgramsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTProgramsViewController.xib; sourceTree = "<group>"; };
+		9919DF131979CC0600C7C5C1 /* WTProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTProgram.h; sourceTree = "<group>"; };
+		9919DF141979CC0600C7C5C1 /* WTProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTProgram.m; sourceTree = "<group>"; };
+		9919DF191979CD8700C7C5C1 /* WTWorkout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTWorkout.h; sourceTree = "<group>"; };
+		9919DF1A1979CD8700C7C5C1 /* WTWorkout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTWorkout.m; sourceTree = "<group>"; };
+		9919DF1C1979CDF300C7C5C1 /* WTExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTExercise.h; sourceTree = "<group>"; };
+		9919DF1D1979CDF300C7C5C1 /* WTExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTExercise.m; sourceTree = "<group>"; };
+		9919DF5F197A1F9300C7C5C1 /* WTAddNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAddNewViewController.h; sourceTree = "<group>"; };
+		9919DF60197A1F9300C7C5C1 /* WTAddNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAddNewViewController.m; sourceTree = "<group>"; };
+		9919DF61197A1F9300C7C5C1 /* WTAddNewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTAddNewViewController.xib; sourceTree = "<group>"; };
+		9919DF64197A1FC500C7C5C1 /* WTAddNewProgramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAddNewProgramViewController.h; sourceTree = "<group>"; };
+		9919DF65197A1FC500C7C5C1 /* WTAddNewProgramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAddNewProgramViewController.m; sourceTree = "<group>"; };
+		9919DF67197A1FD900C7C5C1 /* WTAddNewWorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAddNewWorkoutViewController.h; sourceTree = "<group>"; };
+		9919DF68197A1FD900C7C5C1 /* WTAddNewWorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAddNewWorkoutViewController.m; sourceTree = "<group>"; };
+		9919DF6A197A200700C7C5C1 /* WTAddNewExcerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAddNewExcerciseViewController.h; sourceTree = "<group>"; };
+		9919DF6B197A200700C7C5C1 /* WTAddNewExcerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAddNewExcerciseViewController.m; sourceTree = "<group>"; };
+		9919DF6D197A209F00C7C5C1 /* WTAddNewExcerciseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTAddNewExcerciseViewController.xib; sourceTree = "<group>"; };
+		9919DF6F197B3F7200C7C5C1 /* WTModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTModelController.h; sourceTree = "<group>"; };
+		9919DF70197B3F7200C7C5C1 /* WTModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTModelController.m; sourceTree = "<group>"; };
+		9919DF72197C48E700C7C5C1 /* WTWorkoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTWorkoutsViewController.h; sourceTree = "<group>"; };
+		9919DF73197C48E700C7C5C1 /* WTWorkoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTWorkoutsViewController.m; sourceTree = "<group>"; };
+		9919DF74197C48E700C7C5C1 /* WTWorkoutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTWorkoutsViewController.xib; sourceTree = "<group>"; };
+		9919DF77197CF2C500C7C5C1 /* WTExcercisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTExcercisesViewController.h; sourceTree = "<group>"; };
+		9919DF78197CF2C500C7C5C1 /* WTExcercisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTExcercisesViewController.m; sourceTree = "<group>"; };
+		9919DF79197CF2C500C7C5C1 /* WTExcercisesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTExcercisesViewController.xib; sourceTree = "<group>"; };
+		9919DF7C197D793900C7C5C1 /* WTExcerciseTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTExcerciseTimerViewController.h; sourceTree = "<group>"; };
+		9919DF7D197D793900C7C5C1 /* WTExcerciseTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTExcerciseTimerViewController.m; sourceTree = "<group>"; };
+		9919DF7E197D793900C7C5C1 /* WTExcerciseTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTExcerciseTimerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9919DED91979CACB00C7C5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9919DEE21979CACB00C7C5C1 /* CoreGraphics.framework in Frameworks */,
+				9919DEE41979CACB00C7C5C1 /* UIKit.framework in Frameworks */,
+				9919DEE01979CACB00C7C5C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9919DEF41979CACC00C7C5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9919DEF91979CACC00C7C5C1 /* XCTest.framework in Frameworks */,
+				9919DEFB1979CACC00C7C5C1 /* UIKit.framework in Frameworks */,
+				9919DEFA1979CACC00C7C5C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9919DED31979CACB00C7C5C1 = {
+			isa = PBXGroup;
+			children = (
+				9919DEE51979CACC00C7C5C1 /* WorkoutTimer */,
+				9919DEFE1979CACC00C7C5C1 /* WorkoutTimerTests */,
+				9919DEDE1979CACB00C7C5C1 /* Frameworks */,
+				9919DEDD1979CACB00C7C5C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9919DEDD1979CACB00C7C5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9919DEDC1979CACB00C7C5C1 /* WorkoutTimer.app */,
+				9919DEF71979CACC00C7C5C1 /* WorkoutTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9919DEDE1979CACB00C7C5C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9919DEDF1979CACB00C7C5C1 /* Foundation.framework */,
+				9919DEE11979CACB00C7C5C1 /* CoreGraphics.framework */,
+				9919DEE31979CACB00C7C5C1 /* UIKit.framework */,
+				9919DEF81979CACC00C7C5C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9919DEE51979CACC00C7C5C1 /* WorkoutTimer */ = {
+			isa = PBXGroup;
+			children = (
+				9919DEEE1979CACC00C7C5C1 /* WTAppDelegate.h */,
+				9919DEEF1979CACC00C7C5C1 /* WTAppDelegate.m */,
+				9919DF0E1979CBC500C7C5C1 /* WTProgramsViewController.h */,
+				9919DF0F1979CBC500C7C5C1 /* WTProgramsViewController.m */,
+				9919DF101979CBC500C7C5C1 /* WTProgramsViewController.xib */,
+				9919DF72197C48E700C7C5C1 /* WTWorkoutsViewController.h */,
+				9919DF73197C48E700C7C5C1 /* WTWorkoutsViewController.m */,
+				9919DF74197C48E700C7C5C1 /* WTWorkoutsViewController.xib */,
+				9919DF77197CF2C500C7C5C1 /* WTExcercisesViewController.h */,
+				9919DF78197CF2C500C7C5C1 /* WTExcercisesViewController.m */,
+				9919DF79197CF2C500C7C5C1 /* WTExcercisesViewController.xib */,
+				9919DF7C197D793900C7C5C1 /* WTExcerciseTimerViewController.h */,
+				9919DF7D197D793900C7C5C1 /* WTExcerciseTimerViewController.m */,
+				9919DF7E197D793900C7C5C1 /* WTExcerciseTimerViewController.xib */,
+				9919DF5F197A1F9300C7C5C1 /* WTAddNewViewController.h */,
+				9919DF60197A1F9300C7C5C1 /* WTAddNewViewController.m */,
+				9919DF61197A1F9300C7C5C1 /* WTAddNewViewController.xib */,
+				9919DF64197A1FC500C7C5C1 /* WTAddNewProgramViewController.h */,
+				9919DF65197A1FC500C7C5C1 /* WTAddNewProgramViewController.m */,
+				9919DF67197A1FD900C7C5C1 /* WTAddNewWorkoutViewController.h */,
+				9919DF68197A1FD900C7C5C1 /* WTAddNewWorkoutViewController.m */,
+				9919DF6A197A200700C7C5C1 /* WTAddNewExcerciseViewController.h */,
+				9919DF6B197A200700C7C5C1 /* WTAddNewExcerciseViewController.m */,
+				9919DF6D197A209F00C7C5C1 /* WTAddNewExcerciseViewController.xib */,
+				9919DEF11979CACC00C7C5C1 /* Images.xcassets */,
+				9919DEE61979CACC00C7C5C1 /* Supporting Files */,
+				9919DF131979CC0600C7C5C1 /* WTProgram.h */,
+				9919DF141979CC0600C7C5C1 /* WTProgram.m */,
+				9919DF191979CD8700C7C5C1 /* WTWorkout.h */,
+				9919DF1A1979CD8700C7C5C1 /* WTWorkout.m */,
+				9919DF1C1979CDF300C7C5C1 /* WTExercise.h */,
+				9919DF1D1979CDF300C7C5C1 /* WTExercise.m */,
+				9919DF6F197B3F7200C7C5C1 /* WTModelController.h */,
+				9919DF70197B3F7200C7C5C1 /* WTModelController.m */,
+			);
+			path = WorkoutTimer;
+			sourceTree = "<group>";
+		};
+		9919DEE61979CACC00C7C5C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9919DEE71979CACC00C7C5C1 /* WorkoutTimer-Info.plist */,
+				9919DEE81979CACC00C7C5C1 /* InfoPlist.strings */,
+				9919DEEB1979CACC00C7C5C1 /* main.m */,
+				9919DEED1979CACC00C7C5C1 /* WorkoutTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9919DEFE1979CACC00C7C5C1 /* WorkoutTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9919DF041979CACC00C7C5C1 /* WorkoutTimerTests.m */,
+				9919DEFF1979CACC00C7C5C1 /* Supporting Files */,
+			);
+			path = WorkoutTimerTests;
+			sourceTree = "<group>";
+		};
+		9919DEFF1979CACC00C7C5C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9919DF001979CACC00C7C5C1 /* WorkoutTimerTests-Info.plist */,
+				9919DF011979CACC00C7C5C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9919DEDB1979CACB00C7C5C1 /* WorkoutTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9919DF081979CACC00C7C5C1 /* Build configuration list for PBXNativeTarget "WorkoutTimer" */;
+			buildPhases = (
+				9919DED81979CACB00C7C5C1 /* Sources */,
+				9919DED91979CACB00C7C5C1 /* Frameworks */,
+				9919DEDA1979CACB00C7C5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkoutTimer;
+			productName = WorkoutTimer;
+			productReference = 9919DEDC1979CACB00C7C5C1 /* WorkoutTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9919DEF61979CACC00C7C5C1 /* WorkoutTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9919DF0B1979CACC00C7C5C1 /* Build configuration list for PBXNativeTarget "WorkoutTimerTests" */;
+			buildPhases = (
+				9919DEF31979CACC00C7C5C1 /* Sources */,
+				9919DEF41979CACC00C7C5C1 /* Frameworks */,
+				9919DEF51979CACC00C7C5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9919DEFD1979CACC00C7C5C1 /* PBXTargetDependency */,
+			);
+			name = WorkoutTimerTests;
+			productName = WorkoutTimerTests;
+			productReference = 9919DEF71979CACC00C7C5C1 /* WorkoutTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9919DED41979CACB00C7C5C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Omar Gudino";
+				TargetAttributes = {
+					9919DEF61979CACC00C7C5C1 = {
+						TestTargetID = 9919DEDB1979CACB00C7C5C1;
+					};
+				};
+			};
+			buildConfigurationList = 9919DED71979CACB00C7C5C1 /* Build configuration list for PBXProject "WorkoutTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9919DED31979CACB00C7C5C1;
+			productRefGroup = 9919DEDD1979CACB00C7C5C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9919DEDB1979CACB00C7C5C1 /* WorkoutTimer */,
+				9919DEF61979CACC00C7C5C1 /* WorkoutTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9919DEDA1979CACB00C7C5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9919DF63197A1F9300C7C5C1 /* WTAddNewViewController.xib in Resources */,
+				9919DF6E197A209F00C7C5C1 /* WTAddNewExcerciseViewController.xib in Resources */,
+				9919DF121979CBC500C7C5C1 /* WTProgramsViewController.xib in Resources */,
+				9919DF7B197CF2C600C7C5C1 /* WTExcercisesViewController.xib in Resources */,
+				9919DF76197C48E700C7C5C1 /* WTWorkoutsViewController.xib in Resources */,
+				9919DF80197D793900C7C5C1 /* WTExcerciseTimerViewController.xib in Resources */,
+				9919DEEA1979CACC00C7C5C1 /* InfoPlist.strings in Resources */,
+				9919DEF21979CACC00C7C5C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9919DEF51979CACC00C7C5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9919DF031979CACC00C7C5C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9919DED81979CACB00C7C5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9919DF7F197D793900C7C5C1 /* WTExcerciseTimerViewController.m in Sources */,
+				9919DEEC1979CACC00C7C5C1 /* main.m in Sources */,
+				9919DF75197C48E700C7C5C1 /* WTWorkoutsViewController.m in Sources */,
+				9919DF151979CC0600C7C5C1 /* WTProgram.m in Sources */,
+				9919DF1E1979CDF300C7C5C1 /* WTExercise.m in Sources */,
+				9919DF1B1979CD8700C7C5C1 /* WTWorkout.m in Sources */,
+				9919DF62197A1F9300C7C5C1 /* WTAddNewViewController.m in Sources */,
+				9919DEF01979CACC00C7C5C1 /* WTAppDelegate.m in Sources */,
+				9919DF69197A1FD900C7C5C1 /* WTAddNewWorkoutViewController.m in Sources */,
+				9919DF111979CBC500C7C5C1 /* WTProgramsViewController.m in Sources */,
+				9919DF71197B3F7200C7C5C1 /* WTModelController.m in Sources */,
+				9919DF6C197A200700C7C5C1 /* WTAddNewExcerciseViewController.m in Sources */,
+				9919DF7A197CF2C600C7C5C1 /* WTExcercisesViewController.m in Sources */,
+				9919DF66197A1FC500C7C5C1 /* WTAddNewProgramViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9919DEF31979CACC00C7C5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9919DF051979CACC00C7C5C1 /* WorkoutTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9919DEFD1979CACC00C7C5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9919DEDB1979CACB00C7C5C1 /* WorkoutTimer */;
+			targetProxy = 9919DEFC1979CACC00C7C5C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9919DEE81979CACC00C7C5C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9919DEE91979CACC00C7C5C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9919DF011979CACC00C7C5C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9919DF021979CACC00C7C5C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9919DF061979CACC00C7C5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9919DF071979CACC00C7C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9919DF091979CACC00C7C5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkoutTimer/WorkoutTimer-Prefix.pch";
+				INFOPLIST_FILE = "WorkoutTimer/WorkoutTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9919DF0A1979CACC00C7C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkoutTimer/WorkoutTimer-Prefix.pch";
+				INFOPLIST_FILE = "WorkoutTimer/WorkoutTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9919DF0C1979CACC00C7C5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkoutTimer.app/WorkoutTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkoutTimer/WorkoutTimer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorkoutTimerTests/WorkoutTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9919DF0D1979CACC00C7C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkoutTimer.app/WorkoutTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkoutTimer/WorkoutTimer-Prefix.pch";
+				INFOPLIST_FILE = "WorkoutTimerTests/WorkoutTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9919DED71979CACB00C7C5C1 /* Build configuration list for PBXProject "WorkoutTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9919DF061979CACC00C7C5C1 /* Debug */,
+				9919DF071979CACC00C7C5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9919DF081979CACC00C7C5C1 /* Build configuration list for PBXNativeTarget "WorkoutTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9919DF091979CACC00C7C5C1 /* Debug */,
+				9919DF0A1979CACC00C7C5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9919DF0B1979CACC00C7C5C1 /* Build configuration list for PBXNativeTarget "WorkoutTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9919DF0C1979CACC00C7C5C1 /* Debug */,
+				9919DF0D1979CACC00C7C5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9919DED41979CACB00C7C5C1 /* Project object */;
+}
